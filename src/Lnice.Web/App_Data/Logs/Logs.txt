@@ -44,3 +44,75 @@ DEBUG 2017-04-07 18:06:58,513 [1    ] Abp.Logging.LogHelper                    -
 DEBUG 2017-04-07 18:06:58,514 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Lnice.Music.IMusicAppService' with service name 'app/music'.
 WARN  2017-04-07 18:07:02,303 [7    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
 WARN  2017-04-07 18:07:02,331 [7    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+DEBUG 2017-04-07 18:39:34,823 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-04-07 18:39:34,838 [1    ] Abp.Modules.AbpModuleManager             - Found 11 ABP modules in total.
+DEBUG 2017-04-07 18:39:34,843 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Lnice.Web.LniceWebModule, Lnice.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-07 18:39:34,846 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-07 18:39:34,846 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-07 18:39:34,846 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-07 18:39:34,847 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-07 18:39:34,847 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Lnice.LniceDataModule, Lnice.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-07 18:39:34,847 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-07 18:39:34,847 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Lnice.LniceCoreModule, Lnice.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-07 18:39:34,848 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Lnice.LniceApplicationModule, Lnice.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-07 18:39:34,848 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Lnice.LniceWebApiModule, Lnice.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-07 18:39:34,848 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-07 18:39:34,851 [1    ] Abp.Modules.AbpModuleManager             - 11 modules loaded.
+DEBUG 2017-04-07 18:39:35,159 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: Lnice.EntityFramework.LniceDbContext, Lnice.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-07 18:39:36,206 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2017-04-07 18:39:36,227 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-04-07 18:39:36,228 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-04-07 18:39:36,230 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Lnice
+DEBUG 2017-04-07 18:39:36,387 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-04-07 18:39:36,420 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Lnice.User.IUserAppService' with service name 'app/user'.
+DEBUG 2017-04-07 18:39:36,421 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Lnice.Music.IMusicAppService' with service name 'app/music'.
+WARN  2017-04-07 18:39:39,445 [8    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2017-04-07 18:39:39,474 [8    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+DEBUG 2017-04-10 10:27:43,890 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-04-10 10:27:43,907 [1    ] Abp.Modules.AbpModuleManager             - Found 11 ABP modules in total.
+DEBUG 2017-04-10 10:27:43,911 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Lnice.Web.LniceWebModule, Lnice.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-10 10:27:43,916 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-10 10:27:43,916 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-10 10:27:43,916 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-10 10:27:43,916 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-10 10:27:43,917 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Lnice.LniceDataModule, Lnice.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-10 10:27:43,917 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-10 10:27:43,917 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Lnice.LniceCoreModule, Lnice.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-10 10:27:43,917 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Lnice.LniceApplicationModule, Lnice.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-10 10:27:43,917 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Lnice.LniceWebApiModule, Lnice.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-10 10:27:43,918 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-10 10:27:43,921 [1    ] Abp.Modules.AbpModuleManager             - 11 modules loaded.
+DEBUG 2017-04-10 10:27:44,726 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: Lnice.EntityFramework.LniceDbContext, Lnice.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-10 10:27:46,834 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2017-04-10 10:27:46,842 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-04-10 10:27:46,843 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-04-10 10:27:46,904 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Lnice
+DEBUG 2017-04-10 10:27:47,100 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-04-10 10:27:47,182 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Lnice.User.IUserAppService' with service name 'app/user'.
+DEBUG 2017-04-10 10:27:47,183 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Lnice.Music.IMusicAppService' with service name 'app/music'.
+WARN  2017-04-10 10:27:53,051 [6    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2017-04-10 10:27:53,081 [6    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+DEBUG 2017-04-10 10:29:10,581 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-04-10 10:29:10,596 [1    ] Abp.Modules.AbpModuleManager             - Found 11 ABP modules in total.
+DEBUG 2017-04-10 10:29:10,601 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Lnice.Web.LniceWebModule, Lnice.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-10 10:29:10,603 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-10 10:29:10,603 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-10 10:29:10,603 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-10 10:29:10,603 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-10 10:29:10,603 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Lnice.LniceDataModule, Lnice.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-10 10:29:10,604 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-10 10:29:10,604 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Lnice.LniceCoreModule, Lnice.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-10 10:29:10,604 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Lnice.LniceApplicationModule, Lnice.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-10 10:29:10,604 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Lnice.LniceWebApiModule, Lnice.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-10 10:29:10,605 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-10 10:29:10,607 [1    ] Abp.Modules.AbpModuleManager             - 11 modules loaded.
+DEBUG 2017-04-10 10:29:10,924 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: Lnice.EntityFramework.LniceDbContext, Lnice.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-10 10:29:11,656 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2017-04-10 10:29:11,674 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-04-10 10:29:11,675 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-04-10 10:29:11,677 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Lnice
+DEBUG 2017-04-10 10:29:11,856 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-04-10 10:29:11,891 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Lnice.User.IUserAppService' with service name 'app/user'.
+DEBUG 2017-04-10 10:29:11,893 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Lnice.Music.IMusicAppService' with service name 'app/music'.
+WARN  2017-04-10 10:29:15,791 [8    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2017-04-10 10:29:15,825 [8    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
