@@ -9,7 +9,7 @@ namespace Lnice.User.Dtos
         public string Email { get; set; }
         public string Mobile { get; set; }
         public string Name { get; set; }
-        public int? Sex { get; set; }
+        public int? Gender { get; set; }
         public string HeadImg { get; set; }
         public string Signature { get; set; }
         public string Msg { get; set; }

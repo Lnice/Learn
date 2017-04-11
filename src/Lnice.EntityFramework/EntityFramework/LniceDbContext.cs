@@ -3,6 +3,7 @@ using Abp.EntityFramework;
 using System.Data.Entity;
 using Lnice.User;
 using Lnice.Music;
+using System.Data.Entity.Validation;
 
 namespace Lnice.EntityFramework
 {
@@ -27,7 +28,6 @@ namespace Lnice.EntityFramework
         public LniceDbContext()
             : base("Default")
         {
-
         }
 
         /* NOTE:
@@ -37,20 +37,6 @@ namespace Lnice.EntityFramework
         public LniceDbContext(string nameOrConnectionString)
             : base(nameOrConnectionString)
         {
-
-        }
-
-        //This constructor is used in tests
-        public LniceDbContext(DbConnection existingConnection)
-         : base(existingConnection, false)
-        {
-
-        }
-
-        public LniceDbContext(DbConnection existingConnection, bool contextOwnsConnection)
-         : base(existingConnection, contextOwnsConnection)
-        {
-
         }
     }
 }

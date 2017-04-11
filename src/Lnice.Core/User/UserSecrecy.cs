@@ -1,4 +1,5 @@
 ﻿using Abp.Domain.Entities;
+using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Lnice.User
@@ -15,6 +16,7 @@ namespace Lnice.User
         /// <summary>
         /// 密码
         /// </summary>
+        [MaxLength(32)]
         public virtual string Pwd { get; set; }
     }
 }

@@ -3,6 +3,7 @@ using Abp.Domain.Entities.Auditing;
 using Lnice.User;
 using System.ComponentModel.DataAnnotations.Schema;
 using System;
+using System.ComponentModel.DataAnnotations;
 
 namespace Lnice.Music
 {
@@ -18,14 +19,17 @@ namespace Lnice.Music
         /// <summary>
         /// 名称
         /// </summary>
+        [MaxLength(20)]
         public virtual string Title { get; set; }
         /// <summary>
         /// 封面
         /// </summary>
+        [MaxLength(50)]
         public virtual string Cover { get; set; }
         /// <summary>
         /// 描述
         /// </summary>
+        [MaxLength(200)]
         public virtual string Description { get; set; }
         /// <summary>
         /// 播放量

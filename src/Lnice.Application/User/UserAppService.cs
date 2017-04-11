@@ -31,7 +31,7 @@ namespace Lnice.User
                     input.Id = ui.Id;
                     input.HeadImg = ui.HeadImg;
                     input.Name = ui.Name;
-                    input.Sex = ui.Sex;
+                    input.Gender = ui.Gender;
                     input.Signature = ui.Signature;
 
                     //写入登陆日志
@@ -54,7 +54,7 @@ namespace Lnice.User
                 Platform = LocalizationSourceName,
                 UnionId = input.Login,
                 UserName = input.Name,
-                Sex = input.Sex
+                Gender =input.Gender
             };
             _loginRepository.Insert(log);
         }
